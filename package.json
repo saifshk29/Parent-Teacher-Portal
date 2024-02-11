@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "prod": "NODE_ENV=production postcss main.css -o public/style.css",
+    "build-css": "tailwindcss build style.css -o css/style.css"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.17",
