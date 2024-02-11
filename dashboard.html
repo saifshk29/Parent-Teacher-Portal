@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student-Dashboard</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/ec429c9a0e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div class=" ">
+        <div class="flex flex-row gap-44">
+            <!--SIDE BAR-->
+            <div class="bg-gradient-to-b from-purple-700 to-blue-300 w-60 h-[100vh] flex flex-col p-5 ">
+               
+                <ul class="text-white flex flex-col gap-10 justify-center items-start font-medium ">
+                    <!--DASHBOARD-->
+                    <li class="flex items-center justify-center gap-2 hover:text-black">
+                        <i class="fa-solid fa-user"></i>
+                        <a href="dashboard.html" class="">DASHBOARD</a>
+                    </li>
+                    <!--PROGRESS-->
+                    <li class="flex items-center justify-center gap-2 hover:text-black ">
+                        <i class="fa-solid fa-bars-progress"></i>
+                        <a href="progress.html">PROGRESS</a>
+                    </li>
+                    <!--EVENT-->
+                    <li class="flex items-center justify-center gap-2 hover:text-black">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <a href="event.html">EVENT</a>
+                    </li>
+                    <!--MEETING scheduling-->
+                    <li class="uppercase flex items-center justify-center gap-2 hover:text-black">
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                        <a href="meeting_parent.html">MEETING scheduling</a>
+                    </li>
+                    <!--TALK TO TEACHER-->
+                    <li class="flex items-center justify-center gap-2 hover:text-black  ">
+                        <i class="fa-brands fa-rocketchat"></i>
+                        <a href="#">TALK TO TEACHER</a>
+                    </li>
+                </ul>
+                
+            </div>
+            <!--MAIN-CONTENT-->
+            <div class="border-2 w-1/2 h-96 self-center text-black">
+                <div class="flex flex-row items-center ">
+                    <!--USER IMG-->
+                    <div>
+                        <img src="images/Sample_User_Icon.png" alt="" width="300px">
+                    </div>
+                    <!--USER DATA-->
+                    <div class="flex flex-col gap-5 font-medium">
+                        <h1 id="usernameDisplay">NAME: </h1>
+                        <h1>STUDENT PRN:</h1>
+                        <h1>CLASS ID:</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+   <script src="script.js"></script> 
+</body>
+</html>

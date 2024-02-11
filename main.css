@@ -1,0 +1,18 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+.font-login{
+            
+    font-family: 'Libre Baskerville', serif;;
+}
+.login-form-blur{
+    backdrop-filter: blur(2px);
+}
+.boxxx{
+    box-sizing: border-box;
+}
+.font-new{
+    font-family: 'Libre Baskerville';
+}

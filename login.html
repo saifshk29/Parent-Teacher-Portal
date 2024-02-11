@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>login</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@1,700&family=Kanit:wght@300&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="w-[100vw] h-[100vh]  overflow-hidden">
+        <div class="mx-auto max-w-[1200px] w-10/12 flex flex-col justify-center items-center  ">
+            <!--navbar-->
+            <div class="w-full pt-10">
+                <img src="images/delta-ptm-high-resolution-logo-transparent.png" alt="" width="300px" class="mx-auto">
+            </div>
+            <!--LOGIN FORM-->
+            <div class="flex flex-col border-2 border-black gap-3 p-10 my-40 login-form-blur bg-white w-ful font-new mx-auto">
+                <div class="flex flex-col items-center justify-between ">
+                    <h1 class="pb-10 text-4xl text-center font-bold  ">LOGIN</h1>
+                </div>
+                <div class="flex flex-col">
+                    <label for="prn"> Student PRN: </label>         
+                    <input type="text" name="stdprn" size="15" class="border-b-2 border-black bg-transparent " id="prn"> 
+                </div>
+                <p id="usernameDisplay"></p>
+                <br>
+                   
+                <div class="flex flex-col">
+                    <label for="pass">Password: </label> 
+                    <input type="Password" id="pass" name="pass" class="border-b-2 border-black bg-transparent" maxlength="16" min="8">
+                </div>
+                
+                <br> 
+                <div class="flex flex-row gap-4 justify-center items-center">
+                    <button id="submit">
+                        <a href="dashboard.html" class="border-2 px-4 py-1 border-black">Submit</a>
+                    </button>
+                    <a href="register.html" class="text-blue-900 hover:text-blue-500 text-sm">New User? Register </a>
+                </div> 
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
